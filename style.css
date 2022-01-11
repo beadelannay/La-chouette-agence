@@ -666,18 +666,25 @@ a {
     font-size: 36px;
 }
 
-.statement-bloc-text {
-    line-height: 26px;
-    font-style: italic;
-    font-size: 20px;
-    text-align: center;
-    font-weight: lighter;
-    max-width: 520px;
-    margin: auto auto auto auto;
-}
-
 p {
     font-size: 11px;
+}
+
+blockquote {
+    border: none;
+}
+
+.citation {
+    font-size: 1.1em;
+    font-style: italic;
+    color: #575757;
+    margin-bottom: 0;
+}
+
+.citation_auteur {
+    font-size: 0.9em;
+    font-style: normal;
+    color: #575757;
 }
 
 .tight-width-whitespace {
@@ -822,7 +829,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url(".Images_compressees/image-de-presentation.jpg");
+    background-image: url("./Images_compressees/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
