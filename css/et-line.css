@@ -167,7 +167,8 @@
 }
 
 .et-icon-browser:before {
-    content: "\e00c"
+    content: "\e00c";
+    color: #F3976C;
 }
 
 .et-icon-calendar:before {
@@ -175,7 +176,8 @@
 }
 
 .et-icon-presentation:before {
-    content: "\e00e"
+    content: "\e00e";
+    color: #F3976C;
 }
 
 .et-icon-picture:before {
@@ -231,7 +233,8 @@
 }
 
 .et-icon-edit:before {
-    content: "\e01c"
+    content: "\e01c";
+    color: #F3976C;
 }
 
 .et-icon-adjustments:before {
