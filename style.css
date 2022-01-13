@@ -920,7 +920,7 @@ h4 {
     }
     .navbar.row {
         margin-left: 0;
-        margin-right: 0;
+        margin-right: -60px;
     }
     .site-navigation {
         position: inherit;
@@ -1028,10 +1028,6 @@ h4 {
         width: 180px;
         height: 320px;
     }
-}
-
-.col-sm-6 {
-    text-align: center;
 }
 
 .col-sm-6 p {
