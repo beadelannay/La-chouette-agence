@@ -51,7 +51,7 @@ template {
 }
 
 a {
-    background-color: transparent
+    background-color: transparent;
 }
 
 a:active,
@@ -1660,7 +1660,8 @@ mark {
 }
 
 .text-center {
-    text-align: center
+    text-align: center;
+    color: black!important;
 }
 
 .text-justify {
@@ -2306,7 +2307,7 @@ pre code {
         float: left
     }
     .col-sm-12 {
-        width: 100%
+        width: 100%;
     }
     .col-sm-11 {
         width: 91.66666667%
@@ -5084,6 +5085,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-collapse {
+    padding-top: 30px;
     padding-right: 15px;
     padding-left: 15px;
     overflow-x: visible;
